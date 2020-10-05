@@ -4,20 +4,18 @@ class App < Sinatra::Base
 
 
     get '/name' do
-        status 200
-        "My name is #{name}"
+        "My name is Mike"
      
     end
 
     get '/hometown' do
-        status 200
-        "My hometown is #{hometown}"
+        "My hometown is Redondo Beach, CA"
        
     end
 
     get '/favorite-song' do
         status 200
-        "My favorite song is #{favorite-song}"       
+        "My favorite song is Pink Floyd -  Echoes "       
     end
 
 end
